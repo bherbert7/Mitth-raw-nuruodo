@@ -15,26 +15,38 @@
     <main>
         <section class="book-list">
             <h2>Thrawn Books</h2>
-            <ul>
-                <li class="book" data-synopsis="The original Thrawn novel, introducing the brilliant Grand Admiral.">
-                    Thrawn (2017)
-                </li>
-                <li class="book" data-synopsis="Thrawn allies with Darth Vader to uncover a hidden threat.">
-                    Thrawn: Alliances (2018)
-                </li>
-                <li class="book" data-synopsis="Thrawn's final challenges in the Empire as he faces treachery.">
-                    Thrawn: Treason (2019)
-                </li>
-                <li class="book" data-synopsis="The rise of Thrawn within the Chiss Ascendancy.">
-                    Thrawn Ascendancy: Chaos Rising (2020)
-                </li>
-                <li class="book" data-synopsis="Thrawn faces new threats as he strengthens the Ascendancy.">
-                    Thrawn Ascendancy: Greater Good (2021)
-                </li>
-                <li class="book" data-synopsis="The thrilling conclusion of Thrawn's Ascendancy trilogy.">
-                    Thrawn Ascendancy: Lesser Evil (2021)
-                </li>
-            </ul>
+            <div class="books">
+                <div class="book">
+                    <img src="images/thrawn_2017.jpg" alt="Thrawn (2017)">
+                    <p>Thrawn (2017)</p>
+                    <span class="synopsis">The original Thrawn novel, introducing the brilliant Grand Admiral.</span>
+                </div>
+                <div class="book">
+                    <img src="images/thrawn_alliances.jpg" alt="Thrawn: Alliances (2018)">
+                    <p>Thrawn: Alliances (2018)</p>
+                    <span class="synopsis">Thrawn allies with Darth Vader to uncover a hidden threat.</span>
+                </div>
+                <div class="book">
+                    <img src="images/thrawn_treason.jpg" alt="Thrawn: Treason (2019)">
+                    <p>Thrawn: Treason (2019)</p>
+                    <span class="synopsis">Thrawn's final challenges in the Empire as he faces treachery.</span>
+                </div>
+                <div class="book">
+                    <img src="images/thrawn_chaos_rising.jpg" alt="Thrawn Ascendancy: Chaos Rising (2020)">
+                    <p>Thrawn Ascendancy: Chaos Rising (2020)</p>
+                    <span class="synopsis">The rise of Thrawn within the Chiss Ascendancy.</span>
+                </div>
+                <div class="book">
+                    <img src="images/thrawn_greater_good.jpg" alt="Thrawn Ascendancy: Greater Good (2021)">
+                    <p>Thrawn Ascendancy: Greater Good (2021)</p>
+                    <span class="synopsis">Thrawn faces new threats as he strengthens the Ascendancy.</span>
+                </div>
+                <div class="book">
+                    <img src="images/thrawn_lesser_evil.jpg" alt="Thrawn Ascendancy: Lesser Evil (2021)">
+                    <p>Thrawn Ascendancy: Lesser Evil (2021)</p>
+                    <span class="synopsis">The thrilling conclusion of Thrawn's Ascendancy trilogy.</span>
+                </div>
+            </div>
         </section>
 
         <section class="timeline">
@@ -49,15 +61,6 @@
             </div>
         </section>
     </main>
-
-    <script>
-        // Hover effect for book synopsis
-        document.querySelectorAll('.book').forEach(book => {
-            book.addEventListener('mouseover', function() {
-                this.setAttribute('title', this.getAttribute('data-synopsis'));
-            });
-        });
-    </script>
 
 </body>
 </html>
