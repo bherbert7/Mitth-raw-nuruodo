@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrawn Book List</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #1a1a2e; color: #e0e0e0; }
+        .book-list { display: flex; flex-wrap: wrap; justify-content: center; }
+        .book { margin: 15px; padding: 10px; border: 1px solid #ccc; width: 200px; position: relative; cursor: pointer; background-color: #16213e; }
+        .synopsis { display: none; position: absolute; background: #0f3460; color: white; padding: 10px; border-radius: 5px; width: 250px; top: 100%; left: 50%; transform: translateX(-50%); }
+        .book:hover .synopsis { display: block; }
+        .timeline { margin-top: 50px; padding: 20px; border-top: 2px solid #e94560; }
+    </style>
+</head>
+<body>
+    <h1>Thrawn Book Collection</h1>
+    <div class="book-list">
+        <div class="book">Thrawn (2017)
+            <div class="synopsis">This book explores Thrawn's rise through the Imperial ranks, showcasing his tactical genius.</div>
+        </div>
+        <div class="book">Thrawn: Alliances (2018)
+            <div class="synopsis">Thrawn teams up with Darth Vader in a thrilling mission that unveils secrets from their past.</div>
+        </div>
+        <div class="book">Thrawn: Treason (2019)
+            <div class="synopsis">Thrawn faces a choice between loyalty to the Empire and his own people, the Chiss Ascendancy.</div>
+        </div>
+        <div class="book">Thrawn Ascendancy: Chaos Rising (2020)
+            <div class="synopsis">The first book in the prequel trilogy that delves into Thrawn's early years in the Chiss Ascendancy.</div>
+        </div>
+        <div class="book">Thrawn Ascendancy: Greater Good (2021)
+            <div class="synopsis">Thrawn uncovers a conspiracy that threatens the stability of the Chiss Ascendancy.</div>
+        </div>
+        <div class="book">Thrawn Ascendancy: Lesser Evil (2021)
+            <div class="synopsis">The conclusion of the Ascendancy trilogy, where Thrawn faces his greatest challenge yet.</div>
+        </div>
+    </div>
+    
+    <div class="timeline">
+        <h2>Thrawn Book Timeline</h2>
+        <p>1. Thrawn Ascendancy: Chaos Rising (Prequel)</p>
+        <p>2. Thrawn Ascendancy: Greater Good</p>
+        <p>3. Thrawn Ascendancy: Lesser Evil</p>
+        <p>4. Thrawn (2017)</p>
+        <p>5. Thrawn: Alliances</p>
+        <p>6. Thrawn: Treason</p>
+    </div>
+</body>
+</html>
